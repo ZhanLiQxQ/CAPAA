@@ -139,9 +139,8 @@ This software is freely available for non-profit non-commercial use, and may be 
 
 
 [1]: https://arxiv.org/pdf/2506.00978
-[2]: https://drive.google.com/file/d/1FJgo1BUKG4ZBnns2avBONlKnpIB2Hh0J/view?usp=sharing
-[3]: https://drive.google.com/file/d/1FbRw2OJJCruudPMaNzB4NouV8bJHXhPu/view?usp=sharing
-[8]: # (Link to Your CAPAA Presentation Video, e.g., https://youtube.com/your_video_id)
+[3]: https://drive.google.com/file/d/1Kte3lONV2kRgg1hZtRr8ws503jq6JrPU/view?usp=sharing
+[8]: # 
 [spaa-repo]: https://github.com/BingyaoHuang/SPAA
 [4]: https://github.com/BingyaoHuang/CompenNet-plusplus
 [5]: https://github.com/BingyaoHuang/CompenNet
