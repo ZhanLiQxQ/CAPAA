@@ -99,4 +99,4 @@ After these steps, your `data/` directory structure should look approximately li
 - We thank the authors of any publicly available colorful textured sampling images used during experiments.
 - Feel free to open an issue if you have any questions, suggestions, or concerns🥺🥹.
 
-[1]: https://drive.google.com/file/d/1FbRw2OJJCruudPMaNzB4NouV8bJHXhPu/view?usp=sharing
+[1]: https://drive.google.com/file/d/1Kte3lONV2kRgg1hZtRr8ws503jq6JrPU/view?usp=sharing
