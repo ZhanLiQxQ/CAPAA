@@ -11,7 +11,7 @@ Please watch the [CAPAA Presentation (Link to be added)][8] for a quick introduc
 
 This repository contains the PyTorch implementation for **CAPAA (Classifier-Agnostic Projector-based Adversarial Attacks)**.
 
-For more details, please refer to our [paper][1] and [supplementary material][2].
+For more details, please refer to our [paper][1].
 
 ## Prerequisites
 
