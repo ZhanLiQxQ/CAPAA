@@ -46,9 +46,6 @@ setup_list = [
 
 attacker_names = ['SPAA','CAPAA (classifier-specific)','CAPAA (without attention)','CAPAA']
 
-# If you want to retest the results by the given captured images, set 'recreate_stats_and_imgs=True'.
-# If you just want to contact the already generated result tables of all the setups, set 'recreate_stats_and_imgs = False'.
-# all_ret, pivot_table = summarize_all_attackers(attacker_names, data_root, setup_list, recreate_stats_and_imgs = True)
 all_ret, pivot_table = summarize_all_attackers_vit(attacker_names, data_root, setup_list, recreate_stats_and_imgs = False)
 
 
