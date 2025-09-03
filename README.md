@@ -92,7 +92,7 @@ For more details, please refer to our [paper][1].
     * Define your projector and camera settings in the `setup_info` dictionary within `main.py`.
     * Run the relevant cells to perform synchronization, baseline classification, and capture data for your physical setup. Data is saved under `data/setups/[your_setup_name]/`.
 4. **PCNet Training & Attack Generation (Section 5.1 in `main.py`):**
-    * Configure `get_attacker_cfg` (e.g., set `load_pretrained=False` for new training, select `attacker_name` (e.g., 'all' for CAPAA, 'USPAA' for CAPAA (w/o attention), 'CAM' for CAPAA (classifier-specific), 'original SPAA' for SPAA).
+    * Configure `get_attacker_cfg` (e.g., set `load_pretrained=False` for new training, select `attacker_name` (i.e., 'SPAA','CAPAA (classifier-specific)','CAPAA (without attention)' and 'CAPAA').
     * Execute the cell to train your PCNet model (if required) and generate adversarial projector patterns. Patterns are saved to `data/setups/[your_setup_name]/prj/adv/`.
 5. **Real-World Attack Execution and Evaluation (Sections 5.2-5.5, 6.x in `main.py`):**
    * Project the generated adversarial patterns onto your physical scene.
