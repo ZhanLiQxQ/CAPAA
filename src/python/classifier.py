@@ -131,11 +131,18 @@ def query_multi_classifiers(im, cp_sz, classifier_names, imagenet_labels, device
     for classifier_name in classifier_names:
         print(f'Testing {classifier_name}')
         classifier = Classifier(classifier_name, device, device_ids, fix_params=True)
-        _, p, _ = classifier(im, cp_sz)
-        p = p.numpy()
-        labels.append(imagenet_labels[p.argmax()])
-        confidence.append(p.max())
-        print(f'{classifier_name:<15}: {imagenet_labels[p.argmax()]:<20} ({p.max():.2f})')
+        
+        _, p, idx = classifier(im, cp_sz) 
+        
+        p = p.detach().cpu().numpy()
+        idx = idx.detach().cpu().numpy()
+        label_name = imagenet_labels[int(idx[0][0])]
+        
+        labels.append(label_name)
+        confidence.append(p[0][0])
+        
+        print(f'{classifier_name:<15}: {label_name:<20} ({p[0][0]:.2f})')
+        
     return labels, confidence
 
 
